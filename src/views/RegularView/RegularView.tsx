@@ -20,7 +20,8 @@ export default function RegularView() {
   return (
     <div>
       <FileUploaderRegular
-        pubkey="a6ca334c3520777c0045"
+          pubkey={import.meta.env.VITE_UPLOADCARE_PUBLIC_KEY}
+
         onChange={handleChangeEvent}
       />
 

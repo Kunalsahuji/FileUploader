@@ -16,3 +16,4 @@ yarn-error.log*
 .devcontainer
 package-lock.json
 yarn.lock
+.env
